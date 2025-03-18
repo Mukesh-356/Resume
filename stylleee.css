@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    overflow: auto;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    background-image: url(https://marketplace.canva.com/EAGPIDVZ0-A/1/0/1131w/canva-peach-aesthetic-background-flyer-IqGDJ_simvM.jpg);
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+.section {
+    margin-bottom: 20px;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.details-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.details-list li {
+    margin-bottom: 5px;
+}
+
+.declaration {
+    margin-top: 20px;
+}
+
+.photo {
+    position: absolute;
+    top: 30px;
+    right: 270px;
+    width: 125px;
+    height: 125px;
+}
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.border{
+    height: 2px;
+    border-color: orange;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.6);
+}
